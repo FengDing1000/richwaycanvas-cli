@@ -1,0 +1,23 @@
+{
+  "name": "@rich/richwaycanvas-cli",
+  "version": "1.0.16",
+  "description": "这是一个根据算法模型返回的json数据，叠加图片图层并生成base64图片编码的thrift微服务",
+  "main": "bin/entrance",
+  "scripts": {},
+  "bin": {
+    "richwaycanvas": "bin/entrance"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.18.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.7.0",
+    "npm": ">=5.4.2"
+  },
+  "author": "丁锋",
+  "license": "ISC"
+}
